@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "HeyTestOne"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "这个真的是简介"
   s.homepage     = "https://github.com/zhangzhaopds/heyfoxTest"
   s.author             = { "heyfox" => "zhangzhaopds@foxmail.com" }
   s.source       = { :git => "https://github.com/zhangzhaopds/heyfoxTest.git", :tag => s.version }
   s.requires_arc = true
   s.source_files  = "HeyLoading/*"
-  s.dependencies = "MJRefresh"
+  s.dependency 'MJRefresh'
   s.ios.deployment_target = '8.0'
   s.license      = "MIT"
 
