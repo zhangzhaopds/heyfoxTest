@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files  = "HeyLoading/*"
   s.dependencies = "MJRefresh"
+  s.ios.deployment_target = '8.0'
 
 end
