@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zhangzhaopds/heyfoxTest.git", :tag => s.version }
   s.requires_arc = true
   s.source_files  = "HeyLoading/*"
-  s.dependency = "MJRefresh"
+  s.dependencies = "MJRefresh"
 
 end
