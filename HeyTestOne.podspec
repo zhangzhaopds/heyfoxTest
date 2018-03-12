@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.source_files  = "HeyLoading/*"
   s.dependencies = "MJRefresh"
   s.ios.deployment_target = '8.0'
+  s.license      = "MIT"
 
 end
